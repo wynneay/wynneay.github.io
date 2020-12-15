@@ -1,0 +1,90 @@
+body {
+    background-color: #F674CA;
+}
+
+/*navigation*/
+
+#navbar-logo {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar-logo {
+        width: 80%;
+    }
+}
+
+#navbarNav {
+    justify-content: center !important;
+}
+
+.nav-link {
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#23CDFF;
+}
+
+/*nav burger*/
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+/*content*/
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+/*footer*/
+
+.footer {
+    text-align: center;
+    background-color: #23CDFF;    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .nav-link{
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.footer .nav-link:hover {
+    color:#F674CA;
+}
